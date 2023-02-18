@@ -11,7 +11,7 @@ function generatePassword() {
     return password;
 }
 
-function loadPassword() {
+function renderPassword() {
     firstPassword.textContent = generatePassword();
     secondPassword.textContent = generatePassword();
 }
