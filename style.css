@@ -11,7 +11,18 @@ h1 {
     font-family: 'Karla';
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 40pt;
+    line-height: 40px;
+    margin:0;
+    padding:3px 0;
+}
+
+span {
+    color: #a8dadc;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15pt;
     line-height: 40px;
     margin:0;
 }
@@ -20,10 +31,10 @@ h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 20pt;
     line-height: 28px;
-    color: #D5D4D8;
-    margin:0;
+    color: #a8dadc;
+    margin:5px 0 0 0;
 }
 
 #head-container {
@@ -43,7 +54,7 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin: 51px 0 35px 0;
+    margin: 51px 0 5px 0;
 }
 
 #line {

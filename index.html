@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Password Generator</title>
 </head>
     <body>
      <div id="head-container">
@@ -11,7 +11,10 @@
          <h1 class="green">random password</h1>
          <p id="supporting-text">Never use an insecure password again.</p>
          <button id="genBtn" onclick="renderPassword()">Generate passwords</button>
-         <input type="number" placeholder="password length" id="lengthOfPassword" value="1" min="1" max="25">
+         <form>
+             <span>Length of password:</span>
+             <input type="number" placeholder="password length" id="lengthOfPassword" value="15" min="1" max="25">
+         </form>
          <div id="line"></div>
          <button id="password1" class="rectangle" onclick="copyToClipboard('password1')"></button>
          <button id="password2" class="rectangle" onclick="copyToClipboard('password2')"></button>
