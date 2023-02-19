@@ -11,7 +11,7 @@
          <h1 class="green">random password</h1>
          <p id="supporting-text">Never use an insecure password again.</p>
          <button id="genBtn" onclick="renderPassword()">Generate passwords</button>
-         <input type="number" placeholder="password length" id="lengthOfPassword" value="0">
+         <input type="number" placeholder="password length" id="lengthOfPassword" value="1" min="1" max="25">
          <div id="line"></div>
          <button id="password1" class="rectangle" onclick="copyToClipboard('password1')"></button>
          <button id="password2" class="rectangle" onclick="copyToClipboard('password2')"></button>

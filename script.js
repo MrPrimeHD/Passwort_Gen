@@ -7,13 +7,8 @@ let lengthOfPassword = 0;
 
 function generatePassword() {
     let password = "";
-    if(lengthOfPassword > 25 || lengthOfPassword < 1) {
-        alert("Password length must be between 1 and 25 characters");
-    } else {
-        for (let i = 0; i <= lengthOfPassword; i++) {
-            password += characters[Math.floor(Math.random() * characters.length)];
-        }
-
+    for (let i = 0; i <= lengthOfPassword; i++) {
+        password += characters[Math.floor(Math.random() * characters.length)];
     }
     return password;
 }
