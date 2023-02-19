@@ -23,4 +23,5 @@ function renderPassword() {
 function copyToClipboard(id) {
     let text = document.getElementById(id);
     navigator.clipboard.writeText(text.textContent);
+    alert("Copied to clipboard");
 }
