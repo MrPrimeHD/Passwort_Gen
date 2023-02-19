@@ -60,3 +60,7 @@ h1 {
     margin-right: 24px;
     color: #10B981;
 }
+
+textarea {
+    resize: none;
+}
